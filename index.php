@@ -13,8 +13,8 @@
         </div>
         <div >
             <ul class="login_box">
-                <li class="active"><a href="signup.html">SIGNUP</a></li>
-                <li><a href="login.html">LOGIN</a></li>
+                <li class="active"><a href="signup.php">SIGNUP</a></li>
+                <li><a href="login.php">LOGIN</a></li>
             </ul>
         </div>
         <div class="title">
@@ -25,10 +25,9 @@
     <div class="content_box">
         <p>Make your important tasks management easy and efficient.</p>
     <div class="signup_box">
-        <a class = "signup" href="signup.html">Sign Up</a> 
+        <a class = "signup" href="signup.php">Sign Up</a>
         <p>Already have an account?
-            <a href="login.html">LOGIN</a>
-            
+            <a href="login.php">LOGIN</a>
         </p>
 
     </div>
