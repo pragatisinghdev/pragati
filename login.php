@@ -1,4 +1,6 @@
-<?php session_start() ?>
+<?php session_start();
+    $form_handler_url = 'handler/form_handler.php';
+?>
 
 <!DOCTYPE html>
 <html>
@@ -13,7 +15,7 @@
         </div>
     </header>
     <div class="login_box">
-        <form class="input_form" action="code/login.php" method="POST">
+        <form class="input_form" action="<?php echo $form_handler_url ?>" method="POST">
             <p class="head"><span>|</span>LOGIN</p>
             <div class ="details">
                 <input type="text" name="email" placeholder="Enter Email">
@@ -29,7 +31,7 @@
             <a href="">SignUp Using Google Account</a>
         </div>
         <div class="login_click">
-            <input type="submit" value="Login">
+            <input type="submit" name="login" value="Login">
         </div>
         </form>
     </div>
