@@ -1,0 +1,277 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../images/work-desk-background-12.jpg);
+    height: : 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.title_head
+{
+    float:left;
+    margin-top: 30px;
+    margin-left: 180px;
+    padding: 5px;
+    box-sizing: content-box;
+    border: 2px solid #DC143C;
+    border-radius: 5px;
+}
+.title_head a
+{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.title
+{
+    float:center;
+    text-align: center;
+    box-sizing: content-box;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin: 5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.login_box
+{
+    float:right;
+    margin-top: 30px;
+    margin-right: 30px;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.login_box li
+{
+    display: inline-block;
+}
+.login_box li a
+{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.login_box li.active a
+{
+    border: 1px solid white;
+    padding: 10px;
+}
+.login_box li a:hover
+{
+   border: 1px solid white;
+   padding: 10px; 
+}
+
+
+.content_box
+{
+    float:center;
+    text-align: right;
+    font-family: serif;
+    padding-right: 50px;
+    font-size: 20px;
+    color: black;
+}
+.signup_box
+{
+    float:center;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.signup_box a.signup
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 25px;
+    color: #8B0000;
+}
+.signup_box a.signup:hover
+{
+    box-sizing: content-box;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-shadow:  1px 2px #ff0000;
+
+}
+.header .heading
+{
+    float:center;
+    text-align: center;
+    box-sizing: content-box;
+    padding-top: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+body .signup_attributes
+{
+    float:right;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+.signup_attributes .head
+{
+    color:white;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+.signup_attributes .head span
+{
+    font-size: 25px;
+    color: #8B0000;
+}
+.signup_attributes .input_form 
+{
+    padding: 15px;
+}
+.signup_attributes .input_form label
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.signup_attributes .input_form input[type=text]
+{
+    font-size: 15px;
+    background: none;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+.signup_attributes .input_form .full_name
+{
+    padding:10px 120px 20px;
+}
+.signup_attributes .or
+{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    color:white;
+}
+.signup_attributes .google_account 
+{
+    border: 2px solid white;
+    box-sizing: content-box;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+.signup_attributes .google_account a
+{
+    color:#90EE90;
+    float: center; 
+}
+.signup_attributes .signup_click input[type=submit]
+{ 
+    float: right;
+    background: none;
+    font-size: 20px;
+    color: #90EE90;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 20%
+}
+.signup_attributes .signup_click input[type=submit]:hover
+{
+    text-shadow:  1px 2px #ff0000;
+    cursor:pointer;
+}
+.login_box .input_form {
+  float: center;
+  background-color: #FAEAE6;
+  font-family: Georgia, serif;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  position: absolute;
+  top:200px;
+  left : 500px;
+  width: 300px;
+  height: 350px;
+}
+.login_box .input_form .head
+{
+    color: #4B2F29;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.login_box .input_form .details label
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 5px;
+  font-weight: bold;
+  padding-left : 0px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.login_box .input_form .details input[type=text]
+{
+    font-size: 15px;
+    background: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:block;
+    border:none;
+    border-bottom:3px solid #ccc;
+    width:100%
+}
+.login_box .google_account 
+{
+    border: 2px solid #4B2F29 ;
+    box-sizing: content-box;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.login_box .or
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:#4B2F29;
+    font-weight: bold;
+}
+.login_box .login_click
+{
+    padding-left:120px;
+    padding-top: 15px;
+}
+.login_box .login_click input[type=submit]
+{ 
+    background: none;
+    font-size: 20px;
+    color: #90EE90;
+    border: 1px solid #4B2F29;
+    border-width: 2px;
+    padding: 8px;
+    border-radius: 20%;
+    color: #8B0000;
+}
+.login_box .login_click input[type=submit]:hover
+{
+    text-shadow:  1px 2px #ff0000;
+    cursor:pointer;
+}
