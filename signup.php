@@ -17,13 +17,15 @@
         <form class="input_form" action="code/signup.php" method="POST">
             <div class="full_name">
                 <label>Full Name</label>
-                <input type="text" name="fullname" placeholder="Enter FullName"><br>
+                <input type="text" name="fullname" placeholder="Enter FullName">
+                <label>Contact No</label>
+                <input type="text" name="contact_no" placeholder="Enter Contact No.">
             </div>
             <div class ="details">
                 <label>Email</label>
                 <input type="text" name="email" placeholder="Enter Email">
-                <label>Contact No</label>
-                <input type="text" name="contact_no" placeholder="Enter Contact No.">
+                <label>Password</label>
+                <input type="text" name="password" placeholder="Enter Password">
             </div>
         
         <div class="or">

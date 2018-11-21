@@ -155,7 +155,8 @@ body .signup_attributes
 }
 .signup_attributes .input_form .full_name
 {
-    padding:10px 120px 20px;
+    padding-top:10px;
+    padding-bottom:20px;
 }
 .signup_attributes .or
 {

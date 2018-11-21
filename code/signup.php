@@ -11,6 +11,6 @@ if($_POST){
 
 echo "Signup Successful for {$_SESSION['email']}";
 
-}
+
 
 ?>

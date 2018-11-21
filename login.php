@@ -18,8 +18,8 @@
             <div class ="details">
                 <input type="text" name="email" placeholder="Enter Email">
                 <label>Email</label>
-                <input type="text" name="contact_no" placeholder="Enter Contact No.">
-                <label>Contact No</label>                
+                <input type="text" name="password" placeholder="Enter Password">
+                <label>Password</label>
             </div>
         
         <div class="or">
