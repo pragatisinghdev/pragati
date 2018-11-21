@@ -14,7 +14,7 @@
     </header>
     <div class="signup_attributes">
         <p class="head"><span>|</span>SIGN UP</p>
-        <form class="input_form" action="code/login.php" method="POST">
+        <form class="input_form" action="code/signup.php" method="POST">
             <div class="full_name">
                 <label>Full Name</label>
                 <input type="text" name="fullname" placeholder="Enter FullName"><br>
