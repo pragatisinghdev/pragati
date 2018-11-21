@@ -2,10 +2,15 @@
 
 session_start();
 
-if(isset($_POST)){
-    echo "<pre>";
-    print_r($_POST);
-    echo "</pre>";
+if($_POST){
+    $_SESSION['fullname'] = $_POST['fullname'];
+    $_SESSION['email'] = $_POST['email'];
+    $_SESSION['contact_no'] = $_POST['contact_no'];
+    header("Location: signup.php");
+}
+
+echo "Signup Successful for {$_SESSION['email']}";
+
 }
 
 ?>
